@@ -1,0 +1,30 @@
+## Vendedor
+
+- organizado por Unordered Array List
+
+## Mercados
+
+- Usar uma ED FIFO(First in First out): **QUEUE**
+- não circular porque é uma lista de clientes com uma ordem, logo começa e acaba nunca o ultimo se ligaria ao primeiro
+
+o Definir uma lista de clientes, caracterizados essencialmente por um valor que corresponde à
+procura. -> usamos uma DoubleLinkedOrderedList para podermos ordenar os clientes por valor
+de mercado: a DoubleLinkedOrderedList comprara o valor de cada cliente e ordena os por essa
+ordem.
+
+1. Os clientes são servidos pela ordem com que foram inseridos.
+2. Depois de satisfeita a procura, o cliente sai do mercado.
+3. Deve ser possível listar toda informação relativa aos clientes do mercado.
+4. Deve ser possível exportar para ficheiro JSON toda informação relativa a um mercado.
+
+
+
+## Caminhos
+
+- Usar uma network
+- distancia entre o grafo representa distancia em metros/kilometros(ainda a decidir) entre cada um dos locais
+
+
+## Clientes
+
+linkedQueue: porque os clientes são eleminados da lista quando é entregue a mercadoria/valor
