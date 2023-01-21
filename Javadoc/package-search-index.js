@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"main"},{"l":"resources"},{"l":"resources.classes"},{"l":"resources.exceptions"},{"l":"resources.interfaces"},{"l":"tipoLocal"}];updateSearchResults();
